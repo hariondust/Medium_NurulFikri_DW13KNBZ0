@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Register from './Register';
 import Login from './Login';
+import Category from './Category';
 // import ReactDOM from 'react-dom';
 // import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 //import { render } from '@testing-library/react';
@@ -12,8 +13,8 @@ class App extends Component {
     return (
       <div className="App">
         {/*<Register/>*/}
-        <Login/>
-      {/* <Taskthree/> */}
+          {/* <Login/>*/}
+      <Category/> 
       </div>
     )
   };
