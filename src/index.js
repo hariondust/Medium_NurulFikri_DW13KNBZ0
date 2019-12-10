@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Taskone from './Taskone';
-import Tasktwo from './Tasktwo';
+import Register from './Register';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import 'semantic-ui-css/semantic.min.css';
