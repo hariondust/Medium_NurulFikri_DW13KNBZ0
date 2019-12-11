@@ -1,5 +1,7 @@
 import React, {Component, useState} from 'react';
 import { Button, Form, Modal } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
+import Login from './Login';
 
 export default class Register extends Component {
 
@@ -7,7 +9,8 @@ export default class Register extends Component {
 
     return(
 
-     <Modal size='small' trigger={<Button>Click This!</Button>} closeIcon>
+     <Modal size='small' trigger={<Button basic>
+       Sign in</Button>} closeIcon>
           <div className="Container" style={style.container}>
             <div style={style.flex}>
               <div style={style.inleftSide}>
@@ -49,7 +52,7 @@ export default class Register extends Component {
                     <Button compact size='small' color='black' type='submit'>Registration</Button>
                   </div>
                   <div>
-                  <h2 style={{fontSize:'16px', marginTop:'20px', marginBottom:'16px'}}>Already have an account? <a href="https://medium.com/signin" className="Sign-link" style={{color:'green'}}> Sign </a> </h2>
+                  <h2 style={{fontSize:'16px', marginTop:'20px', marginBottom:'16px'}}>Already have an account? <Login/> </h2>
                   </div>
                   <p style={style.p}>To make Medium work, we log user data and share it with service providers. Click "Sign Up" above to accept Medium's <a href="#" style={{color:'grey'}}><u>Terms of Service</u></a> & <a href="#" style={{color:'grey'}}><u>Privacy Policy</u>.</a></p>
                 </div>

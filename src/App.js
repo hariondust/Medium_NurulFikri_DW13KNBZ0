@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import Register from './Register';
 import Login from './Login';
 import Category from './Category';
+import Header from './Header';
+import Content from './Content';
+import { Container } from 'semantic-ui-react';
 // import ReactDOM from 'react-dom';
 // import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 //import { render } from '@testing-library/react';
@@ -12,9 +15,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*<Register/>*/}
-          {/* <Login/>*/}
-      <Category/> 
+      /*<Container>
+        <Header/>
+        <Category/>
+
+
+      </Container>
+      <Container fluid>
+        <Content/>
+      </Container>*/
       </div>
     )
   };

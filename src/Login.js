@@ -1,5 +1,6 @@
 import React, {Component, useState} from 'react';
 import { Button, Form, Modal, Icon } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
 
 export default class Login extends Component {
@@ -61,7 +62,7 @@ export default class Login extends Component {
 
     return(
 
-     <Modal size='small' trigger={<Button>Click This!</Button>} closeIcon>
+     <Modal size='small' trigger={<Link>Sign in</Link>} closeIcon>
           <div className="Container" style={style.container}>
             <div style={style.flex}>
               <div style={style.middleSide}>
@@ -83,7 +84,7 @@ export default class Login extends Component {
                       <Button type='submit' size='small' color='black'>Continue</Button>
                     </Form>
                   </div>
-                  <h2 style={{fontSize:'16px'}}> <a className="Sign-link" href="#" style={{color:'green', marginLeft:'-10px'}}> <Icon name='angle left'/>All sign in options </a> </h2>
+                  <h2 className="Sign-link" style={{fontSize:'16px'}}> <Link to="/Register" style={{color:'green', marginLeft:'-10px'}}> <Icon name='angle left'/>All sign in options</Link> </h2>
                   </div>
               </div>
             </div>
