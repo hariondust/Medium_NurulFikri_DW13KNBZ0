@@ -13,7 +13,7 @@ export default class CategoryPage extends Component {
           <Grid columns={3} style={{marginTop:"40px"}}>
             <Grid.Row>
               <Grid.Column width={5}>
-                <div className="headerLogo" style={{paddingLeft:"130px"}}>
+                <div className="headerLogo" style={{paddingLeft:"115px"}}>
                   <Image src="https://miro.medium.com/max/540/1*cw32fIqCbRWzwJaoQw6BUg.png" style={{width:"270px", height:"61"}}></Image>
                 </div>
               </Grid.Column>
@@ -24,7 +24,7 @@ export default class CategoryPage extends Component {
                 </div>
               </Grid.Column>
               <Grid.Column width={4} style={{textAlign:"right", position:"relative"}}>
-                      <Button basic size="mini" color="blue" style={{position:"absolute", bottom:"8px", right:"24px"}}>Follow</Button>
+                      <Button basic size="mini" color="blue" style={{position:"absolute", bottom:"8px", right:"40px"}}>Follow</Button>
                 </Grid.Column>
             </Grid.Row>
           </Grid>
