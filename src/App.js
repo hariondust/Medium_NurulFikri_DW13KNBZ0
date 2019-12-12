@@ -4,6 +4,7 @@ import Login from './Login';
 import Category from './Category';
 import Header from './Header';
 import Content from './Content';
+import CategoryPage from './CategoryPage';
 import { Container } from 'semantic-ui-react';
 // import ReactDOM from 'react-dom';
 // import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
@@ -15,15 +16,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      /*<Container>
+      <Container>
         <Header/>
-        <Category/>
-
-
       </Container>
       <Container fluid>
-        <Content/>
-      </Container>*/
+        <CategoryPage/>
+      </Container>
       </div>
     )
   };
